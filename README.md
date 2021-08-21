@@ -1,2 +1,392 @@
-# Clubes-de-ciencia-challenge-
-esta es una plantilla para pagina web de clubes challenge 2020
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="Team 6" content="" />
+        <title>Eficiencia y seguridad de vacuna contra COVID-19</title>  <!-- TITULO DE PESATAÑA DE LA WEB-->
+        <link rel="icon" type="image/x-icon" href="assets/img/virus.png" />  <!-- ICONO DE LA PESTAÑA DE LA WEB-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        
+        
+        <!-- INDICE-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top" id="sideNav"> <!--WARNING CAMBIAR navbar-light-(navbar-dark) correct-->
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">cdcmx challenge </span>        <!-- TITULO DEL SLIDEBAR O SELECTOR DE MENU-->
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/cdcmx.png" alt="" /></span> <!-- FOTO PARA PERFIL DEL MENU-->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#intro">Acerca del COVID-19</a></li>  <!-- TITULO INTRO DEL MENU-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#uno">Vacuna CdeCMx-1</a></li> <!-- TITULO UNO DEL MENU-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#dos">Fases de un ensayo clínico</a></li> <!-- TITULO DOS DEL MENU-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#tres">Ensayo clínico I/II: CdeCMx-1</a></li> <!-- TITULO TRES DEL MENU-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cuatro">Resultados</a></li> <!-- TITULO CUATRO DEL MENU-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cinco">EQUIPO</a></li> <!-- TITULO CINCO DEL MENU-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#seis">Bibliografía</a></li> <!-- TITULO TEAM DEL MENU-->
+                </ul>
+            </div>
+        </nav>
+        
+        
+        
+        <!-- CONTENIDO DE LA PAGINA-->
+        <div class="container-fluid p-0">
+            
+            
+            
+            <!-- ENCABEZADO DE LA PAGINA-->
+            <section class="resume-section" id="intro"> <!-- COLOCAR BOTON DINAMICO INTRO-->
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        En búsqueda de la vacuna <!-- PALABRA CLAVE AL INICIO DEL TITULO-->
+                        <span class="text-primary">Ensayos clínicos</span>  <!-- TITULO PRINCIPAL-->
+                    </h1>
+                    
+                    
+                    <div class="subheading mb-5">
+                        "La unidad es la variedad, y la variedad en la unidad es la ley suprema del universo" <!-- SUBTITULO PRINCIPAL-->
+                        <a href="https://www.clubesdeciencia.mx/CdeCMx/Challenge">-Isaac Newton</a>   <!-- AÑADIR LINK A PAGINA DE CLUBES-->
+                    </div>
+                    
+                    <!-- ACERCA DE COVID-->  
+                      <h2 class="mb-5">Acerca de COVID-19</h2>
+                    <p style="text-align: justify;" class="lead mb-5"> Los coronavirus son una familia de virus que pueden causar enfermedades como el resfriado común, el síndrome 
+                        respiratorio agudo grave (SARS, por sus siglas en inglés), y el síndrome respiratorio de Oriente Medio (MERS, por sus siglas en inglés). 
+                        En 2019 se identificó un nuevo coronavirus como la causa de un brote de enfermedades que se originó en China.
+                        Este virus ahora se conoce como el síndrome respiratorio agudo grave coronavirus 2 (SARS-CoV-2). La enfermedad que causa se llama 
+                        enfermedad del coronavirus 2019 (COVID-19). En marzo de 2020 la Organización Mundial de la Salud (OMS) declaró a este brote como pandemia (OMS, 2020). </p>  <!-- AÑADIR TEXTO DE INTRODUCCION-->
+                  
+                    
+                           <div class="subheading mb-5">
+                           <div align="center">Lo que usted debería saber sobre el COVID-19</div>
+                        <div align="center"><span class="text-primary"><!--inicia video--><iframe width="560" height="315" src="https://www.youtube.com/embed/X3PFKxMUtxc" frameborder="0" allow="accelerometer; 
+                            autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--termina video--> </span></div> 
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+  
+                    
+                    
+            <!-- VACUNA CDCMX-1-->
+                <section class="resume-section" id="uno"> <!-- COLOCAR BOTON DINAMICO UNO-->
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Vacuna CdeCMx-1</h2>  <!-- NOMBRE DEL PRIMER TITULO-->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">ACERCA DE LAS PERSONAS MAYORES</h3> <!-- NOMBRE DEL PRIMER SUBTITULO-->
+                            <p style="text-align: justify;" class="lead mb-3">Una población con especial riesgo de complicaciones de salud al contraer COVID-19 es la de los adultos mayores, 
+                              la CDC (Centros para el Control y Prevención de Enfermedades, por sus siglas en inglés) reporta que 8 de cada 10 de las muertes por COVID-19 
+                              en Estados Unidos han sido de personas de 65 años o mayores (CDC,2020). Lo anterior se debe en forma principal al decremento en el 
+                              funcionamiento del timo, que tiene la función de madurar las células T necesarias para un saludable sistema inmunológico. Las células T 
+                              tienen dos funciones al contraer COVID-19, primero activan al arsenal de células de defensa del cuerpo y después atacan a las células 
+                              infectadas evitando que la infección prolifere (Todryk,2018), (Leslie, 2020). Después de la infección algunas células T de memoria quedan 
+                              como protección para activarse rápidamente en una nueva infección, sin embargo, se estima que a la edad de 40 a 50 años esta cantidad de 
+                              células T de memoria decrece drásticamente (Hanes y Manue, 2009). Debido a que las vacunas, emulan en algún grado una infección de 
+                              forma controlada con el fin de producir células T de memoria, entre otras, se ha encontrado que las dosis normales del factor estimulante no 
+                              estimulan el sistema inmune de los adultos mayores para crear inmunidad y se necesitan de dosis mayores y de adyuvantes, como en el caso de la 
+                              vacuna de la influenza (Palmer, 2013).</p> <!-- INSERTAR TEXTO-->
+                            <p style="text-align: justify;" class="lead mb-3">El uso de una vacuna inactivada requiere de más de una dosis para crear inmunidad; sin embargo, tiene la virtud de no 
+                              provocar efectos patológicos debido a un pre tratamiento físico o químico donde los virus pierden la capacidad de replicarse. Debido lo anterior 
+                              su uso en pacientes con sistema inmune debilitado, como en el caso de los adultos mayores, no presenta el riesgo de las vacunas atenuadas que 
+                              contienen virus debilitados, pero, aún con la capacidad de replicarse y provocar efectos adversos, llegando a ser severos en personas adultas, 
+                              por una replicación incontrolada, como en el caso de la vacuna contra el virus de la fiebre amarilla (Weinberger, 2018). </p> <!-- INSERTAR SUBTEXTO-->
+                           
+                            
+                            
+                            <div class="subheading mb-5">
+                           <div align="center">Comparación entre vacuna atenuada e inactivada.</div>
+                            <div align="center"><img src="assets/img/Biorender fig 1.jpg"></div>
+                    </div>
+                 <div/>
+                            <section class="fdb-block">
+  <div class="container">
+    <div class="row align-items-center">
+         <div class="col-12 col-md-6 col-lg-5">
+             <h3 class="mb-0"></h3>
+        <p style="text-align: justify;" class="lead mb-3">Con base en lo anterior se plantea la búsqueda de una vacuna inactivada para adultos mayores que aunado a la seguridad necesaria, cumpla con la 
+                            dosis de factor estimulante para lograr una inmunización óptima y proteger a esta población en riesgo. La vacuna presentada CDECMX-1 es de virus 
+                            completo inactivada por formaldehido, busca crear una respuesta inmune en las personas adultas mayores; esperando su correcta acción en su modalidad 
+                            de dosis alta, para estimular de forma suficiente el sistema inmune de las personas mayores, y en dos dosis, la primera para preparar el sistema inmune 
+                            y la segunda para desarrollar la respuesta inmune protectora. Su producción se plantea en el siguiente diagrama.</p>
+      </div>
+      <div class="col-12 col-md-6 ml-md-auto mt-4 mt-md-0">
+        <img alt="image" class="img-fluid" src="assets/img/Diagrama de flujo fig 2.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+                        </div>
+                        
+                        
+
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />  
+                
+        
+                    
+            <!-- FASES DE UN ENSAYO CLINICO-->
+            <section class="resume-section" id="dos"> <!-- COLOCAR BOTON DINAMICO DOS-->
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Fases de un ensayo clínico</h2>  <!-- NOMBRE DEL SEGUNDO TITULO-->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <p style="text-align: justify;" class="lead mb-3"> El proceso de elaboración de una vacuna es complejo con etapas controladas de inicio a fin, debido son productos biológicos obtenidos a partir de organismos como 
+                                virus y bacterias, y deben cumplir los máximos niveles de calidad y seguridad.</p>
+                            <h3 class="mb-0">PROCESO DE ELABORACIÓN DE VACUNAS</h3> <!-- NOMBRE DEL PRIMER SUBTITULO-->
+                            <div class="lead mb-3">En base a la OPS (2020) y a Singh (2016) las fases clínicas de una vacuna son:</div> <!-- INSERTAR TEXTO-->
+                            <p style="text-align: justify;" class="lead mb-3"><b>Fase I:</b> Usualmente en esta etapa se prueba una nueva vacuna en un número pequeño de personas, menos de 100 adultos. Tiene el 
+                                objetivo principal de evaluar su seguridad, reactogenicidad y efectos biológicos, incluida la respuesta inmunológica desencadenada. 
+                                Esta fase puede incluir estudios de dosis y vías de administración.</p>
+                             <p style="text-align: justify;" class="lead mb-3">Este tipo de ensayos suelen ser de etiqueta abierta, es decir informando al paciente y medico del fármaco y dosificación, y no 
+                                 aleatorios; sin embargo, es posible realizar ensayos controlados aleatorios (ECA) en los que se utiliza un placebo o una vacuna contra una enfermedad y se comparan los
+                                 resultados, en estos casos se controla el sesgo cegando al paciente y médico para evitar error en el estudio por influencia psicológica del paciente o médico, además se 
+                                 randomiza para homogeneizar los grupos y evitar preferencias.</p>
+                            <p style="text-align: justify;" class="lead mb-3"><b>Fase II:</b> En esta fase se prueba una vacuna considerada como segura en la Fase I en un grupo más grande de personas, entre 
+                                200 y 500 y son usualmente multicéntricos. Tiene el objetivo de monitorear la seguridad y eficacia de la vacuna, definida como el porcentaje de reducción de incidencia de 
+                                la enfermedad en las personas vacunadas. Las metas de las pruebas de fase II son estudiar la vacuna candidata en cuanto a su seguridad, eficacia para activar el sistema 
+                                inmune, dosis propuestas, y método de administración.</p>
+                              <p style="text-align: justify;" class="lead mb-3">Los estudios de fase II también pueden ser ECA, pero se busca evaluar con un enfoque gradual el impacto de múltiples 
+                                  variables en la respuesta inmunitaria, como la edad, el origen étnico, el género y la presencia de anticuerpos preexistentes, por ende, se pueden reclutar: adultos, 
+                                  adolescentes, niños, lactantes o incluso mujeres embarazadas.</p>
+                             <p style="text-align: justify;" class="lead mb-3"><b>Fase III:</b> Tiene como objetivo evaluar de forma más completa la seguridad y la eficacia en la prevención de las 
+                                 enfermedades, se involucra a una cantidad del orden de miles de voluntarios que participan en un estudio multicéntrico controlado. Las pruebas de fase III son aleatorias, 
+                                 doble ciego, e involucran la vacuna experimental que se prueba contra un placebo. En general es el paso anterior a la aprobación de una vacuna.</p>
+                               <p style="text-align: justify;" class="lead mb-3">Los ensayos de la fase III son esenciales para el registro y la aprobación para el mercado de una vacuna y evalúan el efecto 
+                                   de la formulación final. Estos ensayos están diseñados para evaluar la eficacia y la seguridad a gran escala. También es importante mencionar que se realizan en condiciones 
+                                   de campo, similares a las del uso rutinario futuro.</p>
+                               <p style="text-align: justify;" class="lead mb-3">Después de esta fase se monitorea constantemente el comportamiento de la vacuna en el “mundo real” en una denominada fase IV.</p>
+                               <p style="text-align: justify;" class="lead mb-3">Gracias a la aportación del equipo del task D con técnicas de detección del COVID-19. Sitio web: challenge-20.github.io/TecnicasDeDeteccionCovid19Equipo20/#</p>
+ 
+</p> <!-- INSERTAR SUBTEXTO-->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"> <!--idea central--> </span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><!--idea central--></span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <img scr="assets/img/info.jpg">   <!-- INSERTAR UNA IMAGEN-->    
+                    
+                    
+                    
+            
+                    
+                    
+                    
+                    
+            <!-- ENSAYO CLINICO I/II: VACUNA-->  
+            <section class="resume-section" id="tres"> <!-- COLOCAR BOTON DINAMICO CUATRO-->
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Ensayo clínico I/II: Vacuna CDECMX-I</h2>  <!-- NOMBRE DEL CUARTO TITULO-->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <p style="text-align: justify;" class="lead mb-3">Se concluyeron de forma satisfactoria la fase de ensayos preclínicos de la vacuna CDECMX-1 
+                                en monos macacos Rhesus al protegerlos de contraer COVID-19 en exposición a SARS-CoV-2. Continuando con la 
+                                investigación de esta posible vacuna se plantea el ensayo clínico para la fase I y II de la vacuna, que se 
+                                llevarán a cabo simultáneamente gracias a los resultados en los ensayos pre-clínicos, al bajo riesgo que 
+                                representa la aplicación de la vacuna inactivadas per se (CDC,2005) y a la premura de soslayar el riesgo que 
+                                el SARS-CoV-2 representa para las personas adultas mayores. En la parte posterior se expone el diseño experimental 
+                                planteado, que tiene como objetivo mostrar información sobre la seguridad de la vacuna CDECMX-1 en humanos, así 
+                                como la eficiencia de producción de anticuerpos desencadenados por las células T auxiliares como Inmunoglobulina G 
+                                (IgG), Inmunoglobulina M (IgM) y anticuerpos neutralizantes (Prete, 1991).</p> <!-- INSERTAR TEXTO-->
+                            <p style="text-align: justify;" class="lead mb-3">
+                            <b>Seguridad y Eficiencia de una vacuna inactivada de SARS-CoV-2 para prevenir COVID-19 en adultos de edad ≥ 60 años.</b></p><!-- INSERTAR SUBTEXTO-->
+ 
+                            <p style="text-align: justify;" class="lead mb-3"><b>Patrocinador:</b> Clubes de Ciencia México.</p>
+                            <p style="text-align: justify;" class="lead mb-3"><b>Colaboradores:</b> Grecia García-Elizalde, Miguel Angel Aguayo-Aguirre, Mónica Fabiola Flores-Rodríguez, 
+                                Yareth Carrillo-López.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"> <!--idea central--> </span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">DESCRIPCIÓN DEL ESTUDIO</h3> <!-- NOMBRE DEL SEGUNDO SUBTITULO-->
+                            <p style="text-align: justify;" class="lead mb-3">Se plantea un estudio aleatorizado en adultos con edad mayor o igual a 60 años con el fin de permitir la 
+                                 homogeneización de los grupos en estudio y obtener información confiable sobre la relación entre la aplicación de la vacuna 
+                                 de virus inactivado CDECMX-1 y su efecto (Manríquez, 2005). Se utilizará un ensayo clínico en paralelo, donde a un grupo de 
+                                 personas se les suministrará la vacuna en diferentes dosis y a otro el placebo. El ensayo clínico se realiza en paralelo debido 
+                                 a que implica un menor tiempo comparado con otros estudios; sin embargo, se proponen futuras evaluaciones con un ensayo clínico 
+                                 cruzado para observar la variación de comportamiento de la vacuna en la misma persona que no puede conocerse con el diseño en paralelo 
+                                 (Richens, 2001). Se utilizará doble ciego para evitar sesgo causado por la influencia psicológica debida al conocimiento de los 
+                                 pacientes y médicos del tratamiento (Letelier, 2004). Se usarán cuatro tratamientos para la fase I y tres para la fase II:</p> <!-- INSERTAR TEXTO-->
+                        <div align="center"><img src="assets/img/Tabla 1 fig 3.jpg"></div>            
+                        </div>
+                     </div>
+                    <br> <br> <br>
+                            <h3 class="mb-0">FICHA TÉCNICA DEL ESTUDIO</h3> <!-- NOMBRE DEL SEGUNDO SUBTITULO-->
+                        <div align="center"><img src="assets/img/Tabla 2 fig 5.jpg"></div>
+                        <br><br>  
+                        
+                     <h3 class="mb-0">FASES DE ESTUDIO</h3> <!-- NOMBRE DEL SEGUNDO SUBTITULO-->                    
+                    <div align="center"><img src="assets/img/Diagrama de flujo 2.jpg"></div>
+
+                        <br><br>
+                             <h3 class="mb-0"!>VARIABLES RESPUESTA A MEDIR</h3> <!-- NOMBRE DEL SEGUNDO SUBTITULO-->
+                        <div align="center"><img src="assets/img/Tabla 3.jpg"></div>
+                      <br><br>
+                             <h3 class="mb-0">CRITERIOS DE ELEGIBILIDAD</h3> <!-- NOMBRE DEL SEGUNDO SUBTITULO-->
+                        <div align="center"><img src="assets/img/Tabla 4.jpg"></div>
+                        <div align="center"><img src="assets/img/Tabla 5.jpg"></div>
+                        </div>
+                       </div>
+                      </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><!--idea central--></span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+            
+            <!-- RESULTADOS -->
+            <section class="resume-section" id="cuatro"> <!-- COLOCAR BOTON DINAMICO CINCO-->
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Resultados</h2>  <!-- NOMBRE DEL QUINTO TITULO-->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <p style="text-align: justify;" class="lead mb-3"> Una vez que se han concluido las fases I/II del ensayo clínico se 
+                                analizarán los datos para valorar los riesgos contra las potenciales ventajas.
+                                Esta información será decisiva para la decisión de continuar con el estudio en la fase III. 
+                                Para mayor información sobre resultados de vacunas contra el virus SARS-Cov-2 en fase I/II lo invitamos a revisar el s
+                                iguiente artículo de Folegatti, (2020) </p> <!-- INSERTAR SUBTEXTO-->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><!--idea central--></span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+           
+                    
+                    
+            <!-- EQUIPO-->  
+            <section class="resume-section" id="cinco"> <!-- COLOCAR BOTON DINAMICO TEAM-->
+              <div class="resume-section-content">
+                  <h2 class="mb-5">EQUIPO C-12</h2> <!-- NOMBRE DEL TEAM-->
+                 
+                  <!-- CARLOS TUFINIO-->  
+                  <div class="resume-section-content">
+                  <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                      <div class="flex-grow-1"> 
+                            <div align="center"><img src="assets/img/Carlos.ico"></div> <!-- AÑADIR MIEMBRO DEL EQUIPO Y DATOS-->
+                            <h3 align="center">Carlos Alejandro Díaz Tufinio, Ph.D.c</h3> 
+                            <div class="subheading mb-5">
+                            <div align="center">Tecnológico de Monterrey Campus Ciudad de México</div>
+                            <div align="center">Full-time professor, Escuela de Ingeniería y Ciencias</div>
+                  
+                                
+                  <!-- GRECIA GARCIA-->  
+                  <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                      <div class="flex-grow-1">   
+                            <div align="center"><img src="assets/img/Grecia (1).ico"></div> <!-- AÑADIR MIEMBRO DEL EQUIPO Y DATOS-->
+                            <h3 align="center">Grecia García Elizalde</h3>
+                            <div align="center">Universidad Autónoma Metropolitana</div>
+                            <div align="center">Ing. Bioquímica Industrial</div>
+                            
+                        
+            <!-- MIGUEL AGUAYO-->          
+              <div class="resume-section-content">
+                  <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                      <div class="flex-grow-1"> 
+                            <div align="center"><img src="assets/img/Miguel.ico"></div> <!-- AÑADIR MIEMBRO DEL EQUIPO Y DATOS-->
+                            <h3 align="center">Miguel Angel Aguayo Aguirre</h3> 
+                            <div align="center">Instituto Tecnológico de Chihuahua</div>
+                            <div align="center">Ing. en Materiales</div>
+                            
+
+                          
+            <!-- MONICA FLORES-->         
+              <div class="resume-section-content">
+                  <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                      <div class="flex-grow-1">         
+                            <div align="center"><img src="assets/img/Mónica.ico"></div> <!-- AÑADIR MIEMBRO DEL EQUIPO Y DATOS-->
+                            <h3 align="center">Mónica Fabiola Flores Rodríguez </h3>
+                            <div align="center">Universidad Autónoma de Coahuila</div>
+                            <div align="center">Lic. Médico Cirujano</div>
+                            
+
+                          
+
+            <!-- YARETH CARRILLO-->          
+              <div class="resume-section-content">
+                  <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                      <div class="flex-grow-1">  
+                            <div align="center"><img src="assets/img/Yareth.ico"></div> <!-- AÑADIR MIEMBRO DEL EQUIPO Y DATOS-->
+                            <h3 align="center">Yareth Carrillo López</h3>
+                            <div align="center">Instituto Tecnológico de Nuevo Laredo</div>
+                            <div align="center">Ing. Mecatrónica</div>
+                            
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+                          
+                          <!-- BIBLIOGRAFÍA-->
+            <section class="resume-section" id="seis"> <!-- COLOCAR BOTON DINAMICO TRES-->
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Bibliografía</h2>  <!-- NOMBRE DEL TERCER TITULO-->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <p style="text-align: justify;" class="lead mb-3"><i>-OMS. (2020). Preguntas y respuestas sobre la enfermedad por coronavirus (COVID-19). 14/08/2020, de OMS 
+                                Sitio web:<u> https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses</u></i></p> <!-- INSERTAR TEXTO-->
+                            <p style="text-align: justify;" class="lead mb-3"><i>-Haynes, L., & Maue, A. C. (2009). Effects of aging on T cell function. Current opinion 
+                                in immunology, 21(4), 414-417.</i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-Palmer, D. B. (2013). The effect of age on thymic function. Frontiers in immunology, 4, 316.</i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-Todryk, Stephen M. "T cell memory to vaccination." (2018): 84.</i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-Leslie, M. T. (2020). cells found in COVID-19 patients ‘bode well’for long-term immunity. Science. May, 14.</i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-CDC. (2020). Coronavirus Disease 2019 (COVID-19) Older Adults. 15/08/2020, de CDC Sitio 
+                                web: <u>https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/older-adults.html#:~:text=Among%20adults%2C%20the%20risk%20for,or%20they%20may%20even%20die</u></i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-Weinberger, B. (2018). Vaccines for the elderly: current use and future challenges. Immunity & ageing, 15(1), 3.</i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-Gao, Q., Bao, L., Mao, H., Wang, L., Xu, K., Yang, M., ... & Gao, H. (2020). Development of an inactivated 
+                                vaccine candidate for SARS-CoV-2. Science.</i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-Zhang, S. L., Ma, L. J., Tian, G., Zhang, L. Y., Zhang, X. Y., & Wang, X. L. (2005). Conditions for SARS-CoV 
+                                cultivation and inactivation. Chinese journal of experimental and clinical virology, 19(2), 135-137.</i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-Qihan Li. (2020). Safety and Immunogenicity Study of an Inactivated SARS-CoV-2 Vaccine for Preventing 
+                                Against COVID-19 in People Aged ⩾60 Years. 15/08/2020, de Clinical Trials.gov Sitio web: <u>https://www.clinicaltrials.gov/ct2/show/NCT04470609?type=Intr&cond=COVID-19&age_v=60&phase=01&draw=2</u></i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-Singh, K., & Mehta, S. (2016). The clinical development process for a novel preventive vaccine: An overview. Journal of postgraduate medicine, 62(1), 4.</i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-OPS. (2020). COVID-19 Fases de desarrollo de una vacuna. 14/08/2020, de OPS Sitio web: <u>https://www.paho.org/es/file/64674/download?token=C8L5YgNT</u></i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-CDC, Prevention (US), National Immunization Program (Centers for Disease Control, & Prevention). (2005). Epidemiology and prevention 
+                                of vaccine-preventable diseases. Department of Health & Human Services, Public Health Service, Centers for Disease Control and Prevention.</i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-Prete, G. F., De Carli, M., Ricci, M., & Romagnani, S. (1991). Helper activity for immunoglobulin synthesis of T helper type 1 (Th1) and Th2 
+                                human T cell clones: the help of Th1 clones is limited by their cytolytic capacity. The Journal of experimental medicine, 174(4), 809-813.</i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-Manríquez, J., Valdivia, G., Rada, G., & Letelier, L. M. (2005). Análisis crítico de ensayos clínicos randomizados publicados en revistas 
+                                biomédicas chilenas. Revista médica de Chile, 133(4), 439-446.</i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-Richens, A. (2001). Proof of efficacy trials: cross-over versus parallel-group. Epilepsy research, 45(1-3), 43-47.</i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-Letelier, L. M., Manríquez, J. J., & Claro GºA, J. C. (2004). El ciego en los ensayos clínicos¿ importa?. Revista médica de Chile, 132(9), 1137-1139.</i></p>
+                            <p style="text-align: justify;" class="lead mb-3"><i>-Folegatti, P. M., Ewer, K. J., Aley, P. K., Angus, B., Becker, S., Belij-Rammerstorfer, S., ... & Dold, C. (2020). Safety and immunogenicity 
+                                of the ChAdOx1 nCoV-19 vaccine against SARS-CoV-2: a preliminary report of a phase 1/2, single-blind, randomised controlled trial. The Lancet.</i></p>
+                                </div>
+                        <div class="flex-shrink-0"><span class="text-primary"> <!--idea central--> </span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><!--idea central--></span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    
+              
+                          
+           
+        <!-- BS core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
